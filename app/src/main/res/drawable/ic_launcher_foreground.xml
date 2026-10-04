@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon E (Lightning). Scaled to sit inside the adaptive-icon safe zone (centre 66dp of 108dp). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.2"
+        android:scaleY="0.2"
+        android:translateX="2.8"
+        android:translateY="2.8">
+        <path
+            android:pathData="M256,92 L398,174 L398,262"
+            android:strokeColor="#B8955A"
+            android:strokeWidth="16"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M398,318 L398,338 L256,420 L114,338 L114,250"
+            android:strokeColor="#B8955A"
+            android:strokeWidth="16"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M114,194 L114,174 L256,92"
+            android:strokeColor="#B8955A"
+            android:strokeWidth="16"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M296,128 L184,276 H244 L216,388 L334,234 H274 Z"
+            android:strokeColor="#E3CB98"
+            android:strokeWidth="4"
+            android:strokeLineJoin="round">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="184"
+                    android:startY="388"
+                    android:endX="334"
+                    android:endY="128"
+                    android:type="linear">
+                    <item android:color="#8F6E3A" android:offset="0" />
+                    <item android:color="#B8955A" android:offset="0.55" />
+                    <item android:color="#E3CB98" android:offset="1" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:fillColor="#EDE9E1"
+            android:pathData="M384,290 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0" />
+        <path
+            android:fillColor="#8F6E3A"
+            android:pathData="M100,222 a14,14 0 1,0 28,0 a14,14 0 1,0 -28,0" />
+    </group>
+</vector>
