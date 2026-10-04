@@ -118,6 +118,13 @@ fun ResultScreen(vm: HeroViewModel) {
                 }
             }
         }
+        if (state is Generation.Success || state is Generation.Failed) {
+            GhostButton(
+                "New hero",
+                onClick = vm::startOver,
+                modifier = Modifier.fillMaxWidth().padding(start = 16.dp, end = 16.dp, bottom = 12.dp),
+            )
+        }
         BottomBar {
             GhostButton("Edit", onClick = vm::goToReview, modifier = Modifier.weight(1f))
             when (state) {

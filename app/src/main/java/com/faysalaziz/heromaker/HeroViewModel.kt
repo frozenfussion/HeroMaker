@@ -133,6 +133,15 @@ class HeroViewModel(app: Application) : AndroidViewModel(app) {
         screen = Screen.Review
     }
 
+    /** Drops the current hero and any image request, and goes back to the first wizard step. */
+    fun startOver() {
+        generationJob?.cancel()
+        generationJob = null
+        generation = Generation.Idle
+        spec = HeroSpec()
+        screen = Screen.Step(0)
+    }
+
     fun openSettings() { showSettings = true }
     fun closeSettings() { showSettings = false }
 
