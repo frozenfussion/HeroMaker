@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.faysalaziz.heromaker"
-    compileSdk = 36
+    compileSdk = 37 // Compose 1.12 needs API 37 to compile; targetSdk below stays one step behind the latest
 
     defaultConfig {
         applicationId = "com.faysalaziz.heromaker"
